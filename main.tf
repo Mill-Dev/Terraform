@@ -10,7 +10,7 @@ resource "aws_instance" "terraform-instance" {
     volume_type = "gp2"
   }
   tags = {
-    Name = "TF69-Test"
+    Name = "TF-Test"
   }
   volume_tags = {
     Name = "TF-Test"
